@@ -14,20 +14,23 @@ body {
     justify-content: center;
     font-family: 'Red Hat Display', sans-serif;
     font-size: 16px;
+    background: url(./images/pattern-background-desktop.svg);
     background-color: hsl(225, 100%, 94%);
-    background-color: url(./images/pattern-background-desktop.svg);
-    background-size: auto;
-    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
 }
 
+/* Estrutura Cartão */
 #card {
     width: 300px;
-    height: 500px;
+    height: 450px;
     text-align: center;
     border-radius: 10px;
     background-color: hsl(225, 100%, 98%);
 }
 
+/* Imagem */
 #image {
     width: 300px;
     height: 150px;
@@ -37,33 +40,112 @@ body {
     background-repeat: no-repeat;
 }
 
+/* Informações */
 #infos {
-    border: 1px solid green;
     width: 300px;
-    height: 350px;
-    padding: 30px 30px 10px 30px;
+    height: 300px;
+    padding: 20px 30px 10px 30px;
 }
 
 div#infos h2 {
-    font-size: 1.4em;
+    font-size: 1.3em;
     font-weight: 900;
 }
 
 div#infos p {
-    
-    font-size: 0.8em;
+    font-size: 0.7em;
     font-weight: 500;
     margin: 10px 0 20px 0 ;
+    padding: 0 15px;
     color: hsl(224, 23%, 55%);
 }
 
+/* Preços e Planos */
 #price {
-    border: 1px solid red;
+    height: 70px;
+    border-radius: 10px;
+    text-align: left;
     display: flex;
     align-items: center;
+    background-image: url(./images/icon-music.svg);
+    background-color: hsla(225, 100%, 94%, 0.4);
+    background-size: 32px;
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-position-x: 10px;
 }
 
-#price 
+/* Preços */
+div#price div {
+    padding: 0 40px 0 55px;
+    margin-right: 20px;
+} 
+
+div#price div h4 {
+    font-size: 0.7em;
+    font-weight: 700;
+}
+
+div#price h4+span{
+    font-weight: 700;
+    color: hsl(224, 23%, 55%);
+    font-size: 0.7em;
+    font-weight: 500;
+}
+
+/* Planos */
+div#price button{
+    width: auto;
+    height: 40px;
+    font-size: 0.6em;
+    font-weight: 700;
+    text-decoration: underline;
+    border: none;
+    color: hsl(245, 75%, 52%);
+    background-color: hsla(225, 100%, 94%, 0.1);
+}
+
+div#price button:hover{
+    cursor: pointer;
+    text-decoration: none;
+    color:  hsla(245, 75%, 52%, 0.7);
+    
+}
+
+#Payment {
+    width: 100%;
+    height: 35px;
+    box-shadow: 1px 2px 10px hsla(225, 23%, 55%, 0.8);
+    margin-top: 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 0.7em;
+    font-weight: 700;
+    color: hsl(225, 100%, 98%);
+    background-color: hsl(245, 75%, 52%);
+}
+
+#Payment:hover {
+    cursor: pointer;
+    background-color: hsla(245, 75%, 52%, 0.7);
+}
+
+#Cancel {
+    width: 100%;
+    height: 30px;
+    font-size: 0.6em;
+    font-weight: 700;
+    color: hsl(224, 23%, 55%);
+    margin-top: 10px;
+    border: none;
+    background-color: hsl(225, 100%, 98%);
+}
+
+#Cancel:hover {
+    cursor: pointer;
+    font-weight: 700;
+    color: hsl(223, 47%, 23%);
+}
 
 ### Primary
 
