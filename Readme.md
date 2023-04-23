@@ -128,6 +128,7 @@ box-shadow: h-offset v-offset blur spread(shadow spacing) color.
 
 ### Continuous Development
 I want to see how far I can work with that statement. I also intend to study new ways of applying the box-shadow.
+
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Author
