@@ -1,7 +1,7 @@
 ## Pt-Br
 ------------------------------------------------------------------------------------------------------------------------------------------------ 
 # Frontend Mentor - Solução de Componente de Resumo do Pedido
-Olá! 
+Olá! <br>
 Seja muito bem-vindo(a) a minha solução para o desafio do Componente de resumo do pedido feito pelo Frontend Mentor (https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj/hub). Este Readme servirá como seu guia para o entendimento deste projeto. Ele terá como base o template disponiblizado pela própria plataforma do Frontend Mentor.
 <br>
 Sem mais delongas, quero agradeço por disponibiliziar um pouco do seu tempo visitando o meu projeto! :D
@@ -35,26 +35,27 @@ Todo feedback é bem-vindo!!
 
 ### O que aprendi 
 Neste projeto decidi treinar box-shadow. Aprendi que a declaração do Box-Shadow é composta por:
-box-shadow: h-offset v-offset blur spread(espaçamento da sombra) color <br>
+box-shadow: h-offset v-offset blur spread(espaçamento da sombra) color.
 <br>
-futuramente quero implementar outros estilos de sombras em meus projetos.
 
-
-No código a seguir treinei a questão do Seletor de filho e a utilização do letter-spacing, que sempre deve ser feita com a medida em EM ou REM.
-``` Seletor de Filho + lettring-Spacing
-div#infos>span {
-    font-family: 'Montserrat', sans-serif;
+``` Box-Shadow
+#Payment {
+    width: 100%;
+    height: 35px;
+    box-shadow: 1px 2px 10px hsla(225, 23%, 55%, 0.8);
+    margin-top: 15px;
+    border: none;
+    border-radius: 8px;
     font-size: 0.7em;
-    letter-spacing: 0.7em;
-    font-weight: 500;
-    text-transform: uppercase;
-    color: hsl(228, 12%, 48%);
+    font-weight: 700;
+    color: hsl(225, 100%, 98%);
+    background-color: hsl(245, 75%, 52%);
 }
 ```
 
 
 ### Desenvolvimento Contínuo
-Futuramente pretendo voltar nesse projeto para atualizar as responsividade e aplicar a @média que ainda irei estudar. Sinto que finalmente to progredindo na programação. 
+Quero ver até onde consigo trabalhar com essa declaração. Também pretendo estudar novas formas de aplicação da box-shadow. 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -73,11 +74,11 @@ Sinta-se avontade para enviar seu feedback!
 ## EN
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
-# Frontend Mentor - QR code component solution
-Hello! 
-Welcome to my solution to the Product Preview Card Component challenge made by Frontend Mentor (https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa/hub). This Readme will serve as your guide to understanding this project. It will be based on the template provided by the Frontend Mentor platform itself.
-
-Without further ado, I want to thank you for making some of your time available visiting my project! :D
+# Frontend Mentor - Order Summary Component
+Hello! <br>
+Welcome to my solution to the Frontend Mentor Order Summary Component challenge (https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj/hub). This Readme will serve as your guide to understanding this project. It will be based on the template provided by the Frontend Mentor platform itself.
+<br>
+Without further ado, I want to thank you for taking the time to visit my project! :D
 All feedback is welcome!!
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
@@ -96,7 +97,7 @@ All feedback is welcome!!
 
 ## Overview
 ### Print Screen
-![](./Design/Desktop.png)
+![](./design/Desktop.png)
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -106,45 +107,27 @@ All feedback is welcome!!
 - CSS
 
 ### What I learned
-In this project I decided to train a little more the issue of selectors. I also took the opportunity to practice font styling with letter-spacing, code organization and button styling with background-position and text-indent.
+In this project I decided to train box-shadow. I learned that the Box-Shadow declaration is composed of:
+box-shadow: h-offset v-offset blur spread(shadow spacing) color.
+<br>
 
-In the following code I trained the issue of the Child Selector and the use of letter-spacing, which should always be done with the measurement in EM or REM.
-``` Child Selector + lettring-Spacing
-div#infos>span {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 0.7em;
-    letter-spacing: 0.7em;
-    font-weight: 500;
-    text-transform: uppercase;
-    color: hsl(228, 12%, 48%);
-}
-```
-Already in this code I tested a way to organize all the declarations and took the opportunity to test some properties of the background. 
-``` Selector Organization + Background Styling 
-input {
+``` Box-Shadow
+#Payment {
     width: 100%;
-    height: 40px;
-    margin-top: 25px;
-    border-radius: 5px;
+    height: 35px;
+    box-shadow: 1px 2px 10px hsla(225, 23%, 55%, 0.8);
+    margin-top: 15px;
     border: none;
-    font-size: 0.9em;
-    font-weight: 800;
-    text-align: center;
-    text-indent: 25px;
-    color: hsl(0, 0%, 100%);
-    background-image: url(./images/icon-cart.svg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-position-x: 50px;
-    background-size: 14px;
-    background-color: hsl(158, 36%, 37%);
-   color: hsl(220, 15%, 55%);
+    border-radius: 8px;
+    font-size: 0.7em;
+    font-weight: 700;
+    color: hsl(225, 100%, 98%);
+    background-color: hsl(245, 75%, 52%);
 }
 ```
 
 ### Continuous Development
-In the future I intend to return to this project to update the responsiveness and apply the @media that I will still study. I feel like I'm finally making progress on programming. 
-
+I want to see how far I can work with that statement. I also intend to study new ways of applying the box-shadow.
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Author
